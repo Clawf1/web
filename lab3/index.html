@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Music stats</title>
+    <meta name="keywords" content="музыка, статистика, Spotify, Яндекс Музыка, Apple Music, SoundCloud">
+    <meta name="description" content="Сайт-агрегатор музыки с разных музыкальных платформ">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page">
+
+<header class="header">
+    <a href="#home" class="header__logo-link">
+        <img src="../images/logo.png" alt="Logo" class="header__logo">
+    </a>
+    <div class="header__nav-container">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#platforms" class="nav__link">Музыкальные сервисы</a></li>
+                <li class="nav__item"><a href="#library" class="nav__link">Моя медиатека</a></li>
+                <li class="nav__item"><a href="#stats" class="nav__link">Статистика</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="main-content">
+    <section id="home" class="section section--home">
+        <h2 class="section__title">Добро пожаловать на <b class="site-title">STATIFY</b>!</h2>
+        <p class="paragraph">Этот сайт соберет вашу музыкальную статистику со всех платформ, включая <b class="highlight">Spotify</b>, <b class="highlight">Apple Music</b>, <b class="highlight">SoundCloud</b> и <b class="highlight">Яндекс Музыка</b>.</p>
+    </section>
+
+    <section id="platforms" class="section section--platforms">
+        <h2 class="section__title">Подключенные сервисы</h2>
+        <ul class="platforms__list">
+            <li class="platforms__item">
+                <a href="#spotify" class="platforms__link highlight">
+                    <img src="../icons/spotify.svg" alt="Spotify" class="platforms__icon">
+                </a>
+            </li>
+            <li class="platforms__item">
+                <a href="#ya-music" class="platforms__link highlight">
+                    <img src="../icons/yandex.svg" alt="Yandex Music" class="platforms__icon">
+                </a>
+            </li>
+            <li class="platforms__item">
+                <a href="#apple-music" class="platforms__link highlight">
+                    <img src="../icons/apple.svg" alt="Apple Music" class="platforms__icon">
+                </a>
+            </li>
+            <li class="platforms__item">
+                <a href="#connect-new" class="platforms__link">
+                    <img src="../icons/plus.svg" alt="add" class="platforms__icon">
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <section id="library" class="section section--library">
+        <h2 class="section__title">Ваша библиотека</h2>
+        <ul class="library__list">
+            <li class="library__item"><a href="#playlists" class="library__link">Плейлисты</a></li>
+            <li class="library__item"><a href="#albums" class="library__link">Альбомы</a></li>
+            <li class="library__item"><a href="#artists" class="library__link">Исполнители</a></li>
+            <li class="library__item"><a href="#tracks" class="library__link">Треки</a></li>
+        </ul>
+    </section>
+
+    <aside id="stats" class="section section--stats">
+        <h2 class="stats__title">Статистика</h2>
+        <p class="paragraph">// В будущем здесь появится общая статистика прослушиваний со всех платформ</p>
+    </aside>
+
+    <section id="stats-table" class="section section--stats">
+        <h2 class="section__title">Статистика платформ</h2>
+        <div class="table">
+            <div class="table__row table__header">
+                <div class="table__cell">Платформа</div>
+                <div class="table__cell">Spotify</div>
+                <div class="table__cell">Яндекс Музыка</div>
+                <div class="table__cell">Apple Music</div>
+                <div class="table__cell">Итого</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Количество треков</div>
+                <div class="table__cell">1200</div>
+                <div class="table__cell">800</div>
+                <div class="table__cell">1100</div>
+                <div class="table__cell">3100</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Количество альбомов</div>
+                <div class="table__cell">120</div>
+                <div class="table__cell">80</div>
+                <div class="table__cell">110</div>
+                <div class="table__cell">310</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Прослушивания</div>
+                <div class="table__cell">150000</div>
+                <div class="table__cell">95000</div>
+                <div class="table__cell">130000</div>
+                <div class="table__cell">375000</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Любимый жанр</div>
+                <div class="table__cell">Рок</div>
+                <div class="table__cell">Поп</div>
+                <div class="table__cell">Джаз</div>
+                <div class="table__cell">Рок</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Любимый трек</div>
+                <div class="table__cell">Track A</div>
+                <div class="table__cell">Track B</div>
+                <div class="table__cell">Track C</div>
+                <div class="table__cell">Track A</div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="snippet" class="section section--snippet">
+        <h2 class="section__title">Пример кода</h2>
+        <code class="section__code">
+            <del>
+                print("Hello world")
+            </del>
+        </code>
+    </section>
+
+    <section id="quote-and-formula" class="section section--quote">
+        <h3 class="section__subtitle">Цитата и формула успеха</h3>
+
+        <blockquote class="quote">
+            «Музыка — это голос души.»
+        </blockquote>
+
+        <img src="../images/photo.png" alt="philosopher" class="image">
+        
+        <p class="section__formula">Формула успеха:</p>
+        <pre class="formula">E = mc<sup>2</sup></pre>
+    </section>
+</main>
+
+<footer class="footer">
+    <p class="footer__text">&copy; 2024 Музыкальный агрегатор. Все права защищены.</p>
+</footer>
+
+</body>
+</html>

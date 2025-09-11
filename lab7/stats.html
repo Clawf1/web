@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Статистика - Statify</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/loadStats.js" defer></script>
+    <script src="scripts/menuHighlight.js" defer></script>
+</head>
+<body class="page">
+
+<header class="header">
+    <a href="index.html" class="header__logo-link">
+        <img src="../images/logo.png" alt="Logo" class="header__logo">
+    </a>
+    <nav class="header__nav-container">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="platforms.html" class="nav__link">Музыкальные сервисы</a></li>
+            <li class="nav__item"><a href="library.html" class="nav__link">Моя медиатека</a></li>
+            <li class="nav__item"><a href="stats.html" class="nav__link">Статистика</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section id="stats-table" class="section section--stats">
+        <h2 class="section__title">Статистика платформ</h2>
+        <div class="table">
+            <div class="table__row table__header">
+                <div class="table__cell">Платформа</div>
+                <div class="table__cell">Spotify</div>
+                <div class="table__cell">Яндекс Музыка</div>
+                <div class="table__cell">Apple Music</div>
+                <div class="table__cell">Итого</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Количество треков</div>
+                <div class="table__cell">1200</div>
+                <div class="table__cell">800</div>
+                <div class="table__cell">1100</div>
+                <div class="table__cell">3100</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Количество альбомов</div>
+                <div class="table__cell">120</div>
+                <div class="table__cell">80</div>
+                <div class="table__cell">110</div>
+                <div class="table__cell">310</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Прослушивания</div>
+                <div class="table__cell">150000</div>
+                <div class="table__cell">95000</div>
+                <div class="table__cell">130000</div>
+                <div class="table__cell">375000</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Любимый жанр</div>
+                <div class="table__cell">Рок</div>
+                <div class="table__cell">Поп</div>
+                <div class="table__cell">Джаз</div>
+                <div class="table__cell">Рок</div>
+            </div>
+            <div class="table__row">
+                <div class="table__cell">Любимый трек</div>
+                <div class="table__cell">Track A</div>
+                <div class="table__cell">Track B</div>
+                <div class="table__cell">Track C</div>
+                <div class="table__cell">Track A</div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p class="footer__text">&copy; 2024 Statify. Все права защищены.</p>
+    <div id="loadStats"></div>
+</footer>
+
+</body>
+</html>

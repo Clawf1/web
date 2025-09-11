@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная - Statify</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/loadStats.js" defer></script>
+    <script src="scripts/menuHighlight.js" defer></script>
+</head>
+<body class="page">
+
+<header class="header">
+    <a href="index.html" class="header__logo-link">
+        <img src="../images/logo.png" alt="Logo" class="header__logo">
+    </a>
+    <nav class="header__nav-container">
+        <ul class="nav__list">
+            <li class="nav__item"><a href="platforms.html" class="nav__link">Музыкальные сервисы</a></li>
+            <li class="nav__item"><a href="library.html" class="nav__link">Моя медиатека</a></li>
+            <li class="nav__item"><a href="stats.html" class="nav__link">Статистика</a></li>
+            <li class="nav__item"><a href="constructor.html" class="nav__link">ToDo</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section id="home" class="section section--home">
+        <h2 class="section__title">Добро пожаловать на <b class="site-title">STATIFY</b>!</h2>
+        <p class="paragraph">Этот сайт соберет вашу музыкальную статистику со всех платформ, включая <b class="highlight">Spotify</b>, <b class="highlight">Apple Music</b>, <b class="highlight">SoundCloud</b> и <b class="highlight">Яндекс Музыка</b>.</p>
+    </section>
+
+    <aside id="stats" class="section section--stats">
+        <h2 class="stats__title">Статистика</h2>
+        <p class="paragraph">// В будущем здесь появится общая статистика прослушиваний со всех платформ</p>
+    </aside>
+
+    <section id="snippet" class="section section--snippet">
+        <h2 class="section__title">Пример кода</h2>
+        <code class="section__code">
+            <del>
+                print("Hello world")
+            </del>
+        </code>
+    </section>
+
+    <section id="quote-and-formula" class="section section--quote">
+        <h3 class="section__subtitle">Цитата и формула успеха</h3>
+
+        <blockquote class="quote">
+            «Музыка — это голос души.»
+        </blockquote>
+
+        <img src="../images/photo.png" alt="philosopher" class="image">
+
+        <p class="section__formula">Формула успеха:</p>
+        <pre class="formula">E = mc<sup>2</sup></pre>
+    </section>
+</main>
+
+<footer class="footer">
+    <p class="footer__text">&copy; 2024 Statify. Все права защищены.</p>
+    <div id="loadStats"></div>
+</footer>
+
+</body>
+</html>

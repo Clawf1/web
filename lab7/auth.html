@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Авторизация - Statify</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="authstyles.css"> 
+  <script src="scripts/loginModal.js" defer></script>
+</head>
+<body class="page">
+<main class="main-content">
+  <section class="auth-section">
+    <h2 class="auth-section__title">Вход в систему</h2>
+    <form id="auth-form" class="auth-form">
+      <label for="username" class="auth-form__label">Логин</label>
+      <input type="text" id="username" name="username" class="auth-form__input" placeholder="Введите ваш логин" required>
+
+      <label for="password" class="auth-form__label">Пароль</label>
+      <input type="password" id="password" name="password" class="auth-form__input" placeholder="Введите ваш пароль" required>
+
+      <button type="submit" class="auth-form__button">Войти</button>
+    </form>
+    <div id="auth-message" class="auth-message"></div>
+  </section>
+</main>
+</body>
+</html>

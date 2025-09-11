@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Моя медиатека - Statify</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="loader.css">
+  <script src="scripts/loadStats.js" defer></script>
+  <script src="scripts/menuHighlight.js" defer></script>
+  <script src="scripts/loadLibraryData.js" defer></script>
+</head>
+<body class="page">
+
+<header class="header">
+  <a href="index.html" class="header__logo-link">
+    <img src="../images/logo.png" alt="Logo" class="header__logo">
+  </a>
+  <nav class="header__nav-container">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="platforms.html" class="nav__link">Музыкальные сервисы</a></li>
+      <li class="nav__item"><a href="library.html" class="nav__link">Моя медиатека</a></li>
+      <li class="nav__item"><a href="stats.html" class="nav__link">Статистика</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="main-content">
+  <section id="library" class="section section--library">
+    <h2 class="section__title">Ваша библиотека</h2>
+    <ul class="library__list">
+      <li class="library__item"><a href="#playlists" class="library__link">Плейлисты</a></li>
+      <li class="library__item"><a href="#albums" class="library__link">Альбомы</a></li>
+      <li class="library__item"><a href="#artists" class="library__link">Исполнители</a></li>
+      <li class="library__item"><a href="#tracks" class="library__link">Треки</a></li>
+    </ul>
+
+    <div id="library-data-container" class="library-data-container"></div>
+  
+  </section>
+</main>
+
+<footer class="footer">
+  <p class="footer__text">&copy; 2024 Statify. Все права защищены.</p>
+  <div id="loadStats"></div>
+</footer>
+
+</body>
+</html>

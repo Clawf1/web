@@ -1,0 +1,43 @@
+section {
+    outline: 2px solid #F07D78;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+header, footer {
+    outline: 2px solid #F0A778;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+main {
+    outline: 2px solid #F09278;
+    padding: 15px;
+}
+
+nav {
+    outline: 2px solid #F078AF;
+    padding: 10px;
+}
+
+ul {
+    outline: 1px solid #F0BC78;
+    padding: 5px;
+    list-style-type: none;
+}
+
+li {
+    /*outline: 1px dashed #FF9800;*/
+    padding: 5px;
+    margin: 5px 0;
+}
+
+blockquote, code {
+    outline: 1px solid #673AB7;
+    padding: 5px;
+    background-color: #EF9279;
+}
+
+span, strong, em {
+    outline: 1px solid #000;
+}
